@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+}
+
+header {
+    background: #00748d;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    font-family: Fjalla One;
+}
+
+p {
+    font-size: 18px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px;
+}
+
+a:hover {
+    color: #00748d;
+    background: white;
+}
+
+main {
+    max-width: 1500px;
+}
+
+header p, footer p {
+    color: white;
+    width: 250px;
+}
+
+.titre {
+    background-image: url("Images/bg-header.jpg");
+    background-size: cover;
+    height: 575px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.titre h1 {
+    background: #CB8606;
+    color: white;
+    padding: 20px;
+    font-family: Fjalla One;
+    font-size: 20px;
+}
+
+.titre p {
+    background: white;
+    color: #00748d;
+    padding: 5px;
+    font-family: Nunito;
+    width: 500px;
+    text-align: center;
+}
+
+.prestations {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.prestations div {
+    height: auto;
+    width: 20%;
+    margin: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #00748d;
+    font-size: 30px;
+}
+
+.prestations button {
+    background-color: #00748d;
+    color: white;
+    border: solid 2px #00748d;
+    width: 100%;
+    padding: 10px;
+}
+
+button:hover {
+    color: #00748d;
+    background: white;
+    cursor: pointer;
+}
+
+.fa-key, .fa-book, .fa-cart-shopping, .fa-check {
+    font-size: 30px;
+    position: relative;
+    left: 40%;
+    background: #CB8606;
+    color: white;
+    padding: 10px;
+}
+
+.prestations p, .prestations h3 {
+    text-align: center;
+}
+
+.prestataires {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.prestataires img {
+    height: 100%;
+    width: 100%;
+    margin: 10px;
+}
+
+.prestataires img:hover {
+    transform: scale(120%);
+/* Quand on passe la souris sur une image, elle se zoom et des informations apparaissent sur l'image tout en baissant l'opacité de cette dernière. */
+}
+
+.prestataires div {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card1, .card2, .card3, .card4 {
+    border: solid 2px #00748d;
+}
+
+footer {
+    background: #00748d;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.icons {
+    text-align: right;
+    width: 100%;
+    color: white;
+}
+
+.fa-facebook-f, .fa-instagram, .fa-youtube {
+    margin: 5px;
+}
